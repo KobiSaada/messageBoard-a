@@ -19,7 +19,7 @@ namespace ariel {
    }
    
  
-void Board::initBoard(u_int  rows,  u_int columns){// init the board with resize function
+void Board::initBoard(u_int  rows,  u_int columns){// init the board 
     Mxrow =max(Mxrow,rows);
     Minrow=min(Minrow,rows);
     Mxcol =max(Mxcol,columns);
